@@ -19,7 +19,7 @@ app.use(session({
   resave: false,
   saveUninitialized: false,
    store: MongoStore.create({
-    mongoUrl:'mongodb://127.0.0.1:27017/google',
+    mongoUrl:'mongodb+srv://mishrakalash407:mongodbconnect@cluster1.bgkup3d.mongodb.net/?retryWrites=true&w=majority',
     autoRemove:'disabled'
    })
 }));
